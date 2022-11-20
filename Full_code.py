@@ -85,7 +85,7 @@ while True:
             matches = face_recognition.compare_faces(data["encodings"],encoding)
             name = "Unknown"
             if False in matches:
-                API_KEY = "o.tqaliMNTRqQ2a5kTNIaqB58g1JHMyI4m"
+                API_KEY = .....................................
                 file = "thread.txt"
                 with open(file,mode = 'r') as f:
                     text = f.read()
